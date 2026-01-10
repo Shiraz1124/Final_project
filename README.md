@@ -37,5 +37,5 @@ node openai_server.js
 node antivirus_server.js
 npm run dev
 
-### Option 2 – Docker
+Option 2 – Docker
 docker-compose up --build
