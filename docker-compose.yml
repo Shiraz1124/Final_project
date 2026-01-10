@@ -1,0 +1,47 @@
+services:
+  openai_backend:
+    build:
+      context: ./backend
+      dockerfile: openAi_backend/Dockerfile
+    container_name: openai_backend
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./backend/.env
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  antivirus_backend:
+    build:
+      context: ./backend
+      dockerfile: Antivirus_backend/Dockerfile
+    container_name: antivirus_backend
+    ports:
+      - "4000:4000"
+    env_file:
+      - ./backend/.env
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: frontend
+    ports:
+      - "5173:5173"
+    env_file:
+      - ./frontend/.env
+    networks:
+      - app-network
+    depends_on:
+      - openai_backend
+      - antivirus_backend
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge
+

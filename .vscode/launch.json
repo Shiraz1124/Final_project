@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "OpenAI Backend",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\backend\\openAi_backend\\openAi_server.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Antivirus Backend",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\backend\\Antivirus_backend\\AntivirusAPIs_server.js"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Debug Both Backends",
+      "configurations": ["OpenAI Backend", "Antivirus Backend"]
+    }
+  ]
+}

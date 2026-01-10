@@ -1,0 +1,5 @@
+File 1 | Status: 200 | Time: 37530ms | Timeout: No | URL: https://secure.eicar.org/eicar.com | Message: true
+File 3 | Status: 200 | Time: 69395ms | Timeout: No | URL: http://wildfire.paloaltonetworks.com/publicapi/test/pe | Message: true
+File 4 | Status: 200 | Time: 70342ms | Timeout: No | URL: https://wildfire.paloaltonetworks.com/publicapi/test/pe | Message: true
+File 5 | Status: 200 | Time: 266941ms | Timeout: No | URL: https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe | Message: true
+File 2 | Status: 200 | Time: 440546ms | Timeout: No | URL: https://go.dev/dl/go1.21.3.windows-amd64.msi | Message: true

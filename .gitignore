@@ -1,0 +1,7 @@
+# Ignore all node_modules folders
+**/node_modules
+
+# Ignore all .env files
+**/.env
+backend/service-account-key.json
+safeDLbuddy_key_0615.pem

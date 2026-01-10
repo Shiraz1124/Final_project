@@ -1,0 +1,70 @@
+{
+
+  "name": "backend",
+
+  "version": "1.0.0",
+
+  "main": "app.js",
+
+  "scripts": {
+
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+
+  },
+
+  "keywords": [],
+
+  "author": "",
+
+  "license": "ISC",
+
+  "description": "",
+
+  "dependencies": {
+
+    "archiver": "^7.0.1",
+
+    "axios": "^1.10.0",
+
+    "cors": "^2.8.5",
+
+    "dotenv": "^16.5.0",
+
+    "express": "^5.1.0",
+
+    "fs": "^0.0.1-security",
+
+    "googleapis": "^150.0.1",
+
+    "multer": "^2.0.1",
+
+    "node-fetch": "^3.3.2",
+
+    "openai": "^5.5.1",
+
+    "os": "^0.1.2",
+
+    "p-limit": "^6.2.0",
+
+    "p-queue": "^8.1.0",
+
+    "path": "^0.12.7",
+
+    "playwright": "^1.53.0",
+
+    "psl": "^1.15.0",
+
+    "supertest": "^7.1.1",
+
+    "webtorrent": "^2.6.8"
+
+  },
+
+  "devDependencies": {
+
+    "jest": "^30.0.2"
+
+  }
+
+}
+

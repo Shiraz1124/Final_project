@@ -1,0 +1,42 @@
+[
+  {
+    "file": 1,
+    "url": "https://secure.eicar.org/eicar.com",
+    "status": 200,
+    "duration": 37530,
+    "timedOut": false,
+    "message": true
+  },
+  {
+    "file": 3,
+    "url": "http://wildfire.paloaltonetworks.com/publicapi/test/pe",
+    "status": 200,
+    "duration": 69395,
+    "timedOut": false,
+    "message": true
+  },
+  {
+    "file": 4,
+    "url": "https://wildfire.paloaltonetworks.com/publicapi/test/pe",
+    "status": 200,
+    "duration": 70342,
+    "timedOut": false,
+    "message": true
+  },
+  {
+    "file": 5,
+    "url": "https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe",
+    "status": 200,
+    "duration": 266941,
+    "timedOut": false,
+    "message": true
+  },
+  {
+    "file": 2,
+    "url": "https://go.dev/dl/go1.21.3.windows-amd64.msi",
+    "status": 200,
+    "duration": 440546,
+    "timedOut": false,
+    "message": true
+  }
+]

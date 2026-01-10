@@ -1,0 +1,10 @@
+User 2 | Status: 200 | Time: 9110ms | Timeout: No | URL: https://amtso.eicar.org/PotentiallyUnwanted.exe | message: true
+User 8 | Status: 200 | Time: 9358ms | Timeout: No | URL: https://www.openoffice.org/download/index.html | message: true
+User 4 | Status: 200 | Time: 10907ms | Timeout: No | URL: https://secure.eicar.org/eicar_com.zip | message: true
+User 9 | Status: 200 | Time: 10911ms | Timeout: No | URL: https://www.ikarussecurity.com/wp-content/downloads/eicar_com.zip | message: true
+User 10 | Status: 200 | Time: 22197ms | Timeout: No | URL: https://www.dropbox.com/scl/fi/1blydyiwm2p0crzzmwf8k/rufus-4.7p.exe?rlkey=3kbnx7pf22wkd7r0vnk6gbcnh&e=4&st=wf1u1ea1&dl=0 | message: true
+User 7 | Status: 200 | Time: 63820ms | Timeout: No | URL: https://nodejs.org/dist/v20.10.0/node-v20.10.0-x64.msi | message: true
+User 1 | Status: 200 | Time: 72617ms | Timeout: No | URL: https://go.dev/dl/go1.21.3.windows-amd64.msi | message: true
+User 6 | Status: 200 | Time: 95999ms | Timeout: No | URL: magnet:?xt=urn:btih:A53E3226A59F4032EEFA26CEFE6A9BDEE17AA970&dn=KMSpico%2010.1.8%20FINAL%20%2B%20Portable%20(Office%20and%20Windows%2010%20Activator&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce | message: true
+User 5 | Status: 200 | Time: 167990ms | Timeout: No | URL: https://github.com/Da2dalus/The-MALWARE-Repo | message: true
+User 3 | Status: 200 | Time: 174919ms | Timeout: No | URL: https://github.com/microsoft/PowerToys/releases/download/v0.75.1/PowerToysUserSetup-0.75.1-x64.exe | message: true
