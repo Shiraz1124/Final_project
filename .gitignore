@@ -1,24 +1,7 @@
-# Dependencies
-node_modules/
-**/node_modules/
+# Ignore all node_modules folders
+**/node_modules
 
-# Env files / secrets
-.env
-.env.*
-*.pem
-*.key
-*.p12
-*.pfx
-
-# IDE / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Build outputs
-dist/
-build/
+# Ignore all .env files
+**/.env
+backend/service-account-key.json
+safeDLbuddy_key_0615.pem
