@@ -1064,7 +1064,7 @@ scanManager.updateScanActivity(scanId, 'file_validation_start');
         console.log("🗑️ Deleting file from Bytescale:", cleanPath);
         
         await deleteFileFromBytescale({
-          accountId: "223k28X",
+          accountId: "G22nj7v",
           apiKey: BYTESCALE_SECRET,
           querystring: { filePath: cleanPath }
         });
@@ -1127,7 +1127,7 @@ scanManager.updateScanActivity(scanId, 'file_validation_start');
       try {
         const cleanPath = new URL(fileUrl).pathname.replace(`/223k28X/raw`, "");
         await deleteFileFromBytescale({
-          accountId: "223k28X",
+          accountId: "G22nj7v",
           apiKey: BYTESCALE_SECRET,
           querystring: { filePath: cleanPath }
         });
