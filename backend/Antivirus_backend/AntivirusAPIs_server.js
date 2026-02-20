@@ -1060,7 +1060,7 @@ scanManager.updateScanActivity(scanId, 'file_validation_start');
     // Delete file from Bytescale
     if (fileUrl) {
       try {
-        const cleanPath = new URL(fileUrl).pathname.replace(`/223k28X/raw`, "");
+        const cleanPath = new URL(fileUrl).pathname.replace(`/G22nj7v/raw`, "");
         console.log("🗑️ Deleting file from Bytescale:", cleanPath);
         
         await deleteFileFromBytescale({
