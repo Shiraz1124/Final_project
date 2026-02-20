@@ -764,7 +764,7 @@ async function basicUploadToBytescale(file, fileName) {
   
   try {
     const baseUrl = "https://api.bytescale.com";
-    const path = "/v2/accounts/223k28X/uploads/binary";
+    const path = "/v2/accounts/G22nj7v/uploads/binary";
     const queryString = `fileName=${fileName}&folderPath=/uploads`;
     
     const response = await fetch(`${baseUrl}${path}?${queryString}`, {
@@ -1125,7 +1125,7 @@ scanManager.updateScanActivity(scanId, 'file_validation_start');
     
     if (fileUrl) {
       try {
-        const cleanPath = new URL(fileUrl).pathname.replace(`/223k28X/raw`, "");
+        const cleanPath = new URL(fileUrl).pathname.replace(`/G22nj7v/raw`, "");
         await deleteFileFromBytescale({
           accountId: "G22nj7v",
           apiKey: BYTESCALE_SECRET,
